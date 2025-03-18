@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neeraj Roshan - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800 leading-relaxed">
+
+    <!-- Header -->
+    <header class="bg-gray-800 text-white">
+        <nav id="navbar" class="container mx-auto px-4 py-4 flex flex-wrap items-center justify-between">
+            <div class="branding">
+                <h1 class="text-3xl font-bold">Neeraj Roshan</h1>
+            </div>
+            <ul class="page-links flex space-x-4 text-lg">
+                <li><a href="#about" class="hover:text-gray-300">About</a></li>
+                <li><a href="#skills" class="hover:text-gray-300">Skills</a></li>
+                <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+                <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+            <ul class="external-links flex space-x-4 text-lg mt-2 md:mt-0">
+                <li><a href="https://github.com/neerajroshan6" target="_blank" class="hover:text-gray-300">GitHub</a></li>
+                <li><a href="https://linkedin.com/in/neeraj-roshan-fs6" target="_blank" class="hover:text-gray-300">LinkedIn</a></li>
+                <li><a href="mailto:neerajroshan15@gmail.com" class="hover:text-gray-300">Gmail</a></li>
+                <li><a href="tel:8660205455" class="hover:text-gray-300">Phone</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <main>
+        <section id="about" class="py-12">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold mb-4">About Me</h2>
+                <p class="text-lg text-gray-600">Hello! I'm a web developer passionate about creating responsive and user-friendly websites. I love learning new technologies and solving complex problems.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-12 bg-gray-100">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold mb-4">Skills</h2>
+                <ul class="flex flex-wrap justify-center gap-4">
+                    <li class="bg-gray-200 rounded px-6 py-2">HTML</li>
+                    <li class="bg-gray-200 rounded px-6 py-2">CSS</li>
+                    <li class="bg-gray-200 rounded px-6 py-2">Tailwind</li>
+                    <li class="bg-gray-200 rounded px-6 py-2">JavaScript</li>
+                    <li class="bg-gray-200 rounded px-6 py-2">ReactJS</li>
+                    <li class="bg-gray-200 rounded px-6 py-2">Node.js</li>
+                    <li class="bg-gray-200 rounded px-6 py-2">MongoDB</li>
+                    <li class="bg-gray-200 rounded px-6 py-2">Express.js</li>
+                    <li class="bg-gray-200 rounded px-6 py-2">GitHub</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-12">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-4 text-center">Projects</h2>
+                <div class="project bg-gray-100 rounded p-6 mb-6">
+                    <h3 class="font-bold text-xl mb-2">Weather Application</h3>
+                    <p class="text-gray-600">Developed a responsive weather application using the OpenWeather API. Features include live weather updates for any location and a user-friendly interface. Technologies: HTML, CSS, JavaScript, ReactJS.</p>
+                </div>
+                <div class="project bg-gray-100 rounded p-6 mb-6">
+                    <h3 class="font-bold text-xl mb-2">Portfolio Website</h3>
+                    <p class="text-gray-600">Designed and built a personal portfolio website to showcase skills and projects. Implemented mobile-first design principles. Technologies: HTML, CSS, JavaScript.</p>
+                </div>
+                <div class="project bg-gray-100 rounded p-6 mb-6">
+                    <h3 class="font-bold text-xl mb-2">Task Manager Application</h3>
+                    <p class="text-gray-600">Built a task manager with full CRUD functionality, allowing users to create, update, and delete tasks. Implemented authentication and authorization features using JWT. Technologies: ReactJS, Node.js, Express.js, MongoDB.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-12 bg-gray-100">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+                <form id="contact-form" class="space-y-4 max-w-lg mx-auto">
+                    <input type="text" name="name" placeholder="Your Name" required class="w-full border border-gray-300 rounded px-4 py-2">
+                    <input type="email" name="email" placeholder="Your Email" required class="w-full border border-gray-300 rounded px-4 py-2">
+                    <textarea name="message" placeholder="Your Message" required class="w-full border border-gray-300 rounded px-4 py-2"></textarea>
+                    <button type="submit" class="bg-gray-800 text-white rounded px-6 py-2 hover:bg-gray-700">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4 text-center">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2025 Neeraj Roshan</p>
+        </div>
+    </footer>
+
+</body>
+</html>
